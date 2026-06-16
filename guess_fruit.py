@@ -2,7 +2,28 @@ import random
 
 def start_game():
     while True:
-        fruits = ["apple", "banana", "melon", "watermelon", "berry", "kiwi"]
+        fruits = [
+            "apple",
+            "banana",
+            "orange",
+            "grape",
+            "strawberry",
+            "watermelon",
+            "lemon",
+            "peach",
+            "pear",
+            "cherry",
+            "mango",
+            "kiwi",
+            "plum",
+            "coconut",
+            "grapefruit",
+            "raspberry",
+            "blackberry",
+            "blueberry",
+            "pineapple",
+            "melon",
+        ]
         fruit = random.choice(fruits)
         lives = 6
         guessed_letters = []
