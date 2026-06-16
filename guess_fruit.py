@@ -52,6 +52,7 @@ def start_game():
             
             if guess in guessed_letters:
                 print("Guess another letter. This letter has already guessed")
+                lives -= 1
             elif guess in fruit:
                 print("Correct!")
                 guessed_letters.append(guess)
